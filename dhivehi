@@ -1,22 +1,47 @@
-#EXTINF:-1,CNM MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28559
-#EXTINF:-1,DHivehi Channel MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28558
-#EXTINF:-1,Channel Ocean MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28557
-#EXTINF:-1,PSM News MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28556
-#EXTINF:-1,Channel R MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28555
-#EXTINF:-1,YES MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28554
-#EXTINF:-1,Channel 13 MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28552
-#EXTINF:-1,VTV MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28551
-#EXTINF:-1,Sangu TV MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28550
-#EXTINF:-1,Raajje TV MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28549
-#EXTINF:-1,TV Maldives MV
-http://tv.rapidiptv.tvip.xyz:80/lsvWbmBS8f49/RmiUVg18/28548
+#EXTM3U
+#EXTINF:-1 group-title="Maldives" tvg-logo="https://s3.amazonaws.com/medianetmv/resources/channel/211_TVM_HD-01.png", TVM HD
+http://54.169.75.117:1935/live/livestream/chunklist.m3u8
+#EXTINF:-2 group-title="Maldives" tvg-logo="https://s3.amazonaws.com/medianetmv/resources/channel/98_VTV-01.png", VTV HD
+http://vtvstreaming.myvnc.com:1935/vtvlive/vmedia/chunklist.m3u8
+#EXTINF:-3 group-title="Maldives" tvg-logo="https://s3.amazonaws.com/medianetmv/resources/channel/196_Yes_TV-01.png", YES TV HD
+http://w1.viastreaming.net:1935/yestv/live/playlist.m3u8
+#EXTINF:-4 group-title="Maldives" tvg-logo="https://s3.amazonaws.com/medianetmv/resources/channel/210_PSM_News_HD-01.png",PSM NEWS HD
+http://ec2-54-254-194-192.ap-southeast-1.compute.amazonaws.com:1935/live/smil:newslive.smil/playlist.m3u8
+
+
+#EXTINF:-4 group-title="HINDI MOVIES" tvg-logo=" ",kadak
+http://103.199.160.85/Content/moviehouse/Live/Channel(MovieHouse)/index.m3u8
+#EXTINF:-4 group-title="music" tvg-logo=" ",B4u Miusic
+http://103.199.161.254/Content/b4umusic/Live/Channel(B4Umusic)/Stream(01)/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://iptv.live/images/logo/channel/smalls/4b865f70179ee2a8bebc3260a0315f67.png" group-title="HINDI MOVIES",Bollywood Classic
+http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodClassic/6.m3u8/Level(1677721)?start=LIVE&end=END
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/w06sLAh.jpg" group-title="HINDI MOVIES",Bollywood Now
+https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="HINDI MOVIES",Boogle Bollywood
+http://95erywm2dwn4-hls-live.wmncdn.net/1173/booglebollywood/774e3ea9f3fa9bcdac47f445b83b6653.sdp/tracks-v1a1/mono.m3u8
+#EXTINF:-1, group-title="music",SHEMAROO HINDI
+https://livechannel.shemaroome.com/linearplayout/02-bollywood-classic/chunklist_1920x1080_cf.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/12/Screenshot_1-8.png" group-title="NEWS",Times Now HD
+https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8
+#EXTINF:-1 tvg-id="NDTV 24x7-IN" tvg-name="NDTV 24x7-IN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/NDTV_247.svg" group-title="NEWS",NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1, group-title="NEWS",Aljazeera HD
+http://aljazeera-eng-hd-live.hls.adaptive.level3.net/aljazeera/english2/index.m3u8
+#EXTINF:-1, group-title="NEWS",FOX News HD
+http://premium-iptv.link:7899/abcd1234/abcd1234/8410
+#EXTINF:-1, group-title="NEWS",BBC HD
+http://ott-cdn.ucom.am/s24/index.m3u8?fluxustv.m3u8
+#EXTINF:-1, group-title="NEWS",CNN HD
+http://92.43.140.249/s27/04.m3u8?fluxustv.m3u8
+#EXTINF:-1, group-title="NEWS",NHK WORLD HD
+https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp/index_1180.m3u8?fluxustv.m3u8
+
+
+#EXTINF:-1 tvg-id="tv.fox.sports.news" tvg-name="Fox Sports News" tvg-logo="https://i.imgur.com/Kxem8ae.jpg" group-title="SPORTS",Fox Sports News
+https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master1280x720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://mhdtvworld.com/wp-content/uploads/2018/12/Dsports-channel-hd-img_logo.jpg" group-title="SPORTS",D Sport
+http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/vHYFQYR.png" group-title="SPORTS",Fox Sports 1
+https://cvtv.cvalley.net/hls/FS1/FS1.m3u8
